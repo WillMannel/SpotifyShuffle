@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual iPod Shuffle for Spotify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login">
+        <button onclick="login()">Log In to Spotify</button>
+    </div>
+    <div id="player" style="display: none;">
+        <div id="controls">
+            <button onclick="previousTrack()">Previous</button>
+            <button onclick="togglePlay()">Play/Pause</button>
+            <button onclick="nextTrack()">Next</button>
+        </div>
+        <div id="track-info">
+            <p id="current-track">Track will appear here...</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
